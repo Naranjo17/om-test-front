@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+// CSS
+.container {
+    background-color: red;
+}
+
+.container .content {
+    background-color: yellow;
+}
+
+// SCSS
+.container {
+    background-color: red;
+
+    .content {
+        background-color: yellow;
+    }
+}
